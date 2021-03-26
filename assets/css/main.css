@@ -1,0 +1,60 @@
+body {
+  background: black;
+  font-family: Helvetica;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.main .header {
+  width: 100%;
+  height: 150px;
+  margin-bottom: .5rem;
+  background-image: url("https://i.pinimg.com/originals/bd/7e/57/bd7e575a80a12958ed625157327ffbfa.jpg");
+  background-color: rgba(0, 0, 0, 0.311);
+}
+
+.main .header .title_bg {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.311);
+}
+
+.main .header .title_bg .tittle {
+  font-size: 2rem;
+}
+
+.main #mars_photos {
+  display: -ms-grid;
+  display: grid;
+  width: 90%;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  margin: 0 auto;
+}
+
+.main #mars_photos .photo_object {
+  position: relative;
+  padding: .2rem;
+}
+
+.main #mars_photos .photo_object .pic img {
+  width: 100%;
+  max-height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=main.css.map */
